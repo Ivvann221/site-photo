@@ -1,0 +1,50 @@
+.mount {
+    height: 600px;
+    background-image: url('../img/mount.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    @media screen and (max-width:768px) {
+    height: 400px;
+      }
+      @media screen and (max-width:568px) {
+        align-items: center !important;
+    }
+    &__content {
+        margin-right: 62px;
+        @media screen and (max-width:568px) {
+            margin: 0px;
+        }
+    }
+}
+
+    .text {
+
+        p {
+            font-family: 'Poppins';
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+    }
+
+    .subtext {
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #C0C0C0;
+            max-width: 300px;
+        }
+
+    }

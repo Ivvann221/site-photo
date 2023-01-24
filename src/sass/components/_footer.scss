@@ -1,0 +1,138 @@
+.footer {
+padding-top: 100px;
+  background-color: #000;
+
+
+    &__information {
+   margin-top: 20px;
+   p{
+    font-family: 'Poppins';
+font-size: 13px;
+line-height: 1.2;
+color: #C0C0C0;
+@media screen and (max-width:578px) {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+   }
+    }
+
+    &__menu {
+     display: flex;
+     justify-content: center;
+
+        &_item {
+            margin-right: 55px;
+            @media screen and (max-width:578px) {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+               margin-left: 15px;
+            
+              }
+            h5{
+                font-family: 'Poppins';
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    margin-top: 10px;
+                    a{
+text-decoration: none;
+font-family: 'Poppins';
+font-size: 14px;
+line-height: 1.2;
+color: #FFFFFF;
+&:hover{
+    color: #C0C0C0;
+}
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    &__text {
+      
+        margin-top: 36px;
+        p{
+            font-family: 'Poppins';
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+        }
+        @media screen and (max-width:578px) {
+         text-align: center;
+         }
+        
+    }
+
+
+
+    &__subtext {
+        margin-top: 20px;
+        p{
+            font-family: 'Poppins';
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+        }
+        @media screen and (max-width:578px) {
+          text-align: center;
+         }
+    }
+
+  
+
+    &__licensing {
+        margin-top: 56px;
+        margin-bottom: 100px;
+        font-family: 'Poppins';
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+@media screen and (max-width:578px) {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+    }
+  
+
+    
+
+    &__icon {
+        margin-top: 56px;
+        display: flex;
+        justify-content: flex-end;
+        @media screen and (max-width:578px) {
+            justify-content: center;
+            margin-top: 20px;
+         }
+     
+      a{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      @media screen and (max-width:768px) {
+    
+     }
+    }
+}
+
+.line {
+    margin-top: 40px;
+    border-bottom: 1px solid #fff;
+}
+

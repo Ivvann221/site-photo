@@ -1,0 +1,23 @@
+.companies {
+    background-color: #000;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    @media screen and (max-width:768px) {
+        padding-bottom: 80px;
+      }
+    &__items{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width:768px) {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+        img{
+            @media screen and (max-width:768px) {
+                margin-top: 60px;
+            }
+        }
+    }
+}

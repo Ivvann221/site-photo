@@ -1,0 +1,22 @@
+@import "reset_style.scss";
+@import "base/func";
+@import "fonts/font";
+@import "base/variables";
+
+
+@import "../css/bootstrap.min.css";
+//@import "libs/slick-theme.scss";
+@import "libs/slick.scss";
+
+@import "components/header";
+@import "components/hero";
+@import "components/works";
+@import "components/mount";
+@import "components/use";
+@import "components/monstera";
+@import "components/companies";
+@import "components/himalays";
+@import "components/help";
+@import "components/footer";
+@import "components/btn-up";
+

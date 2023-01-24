@@ -1,0 +1,140 @@
+.works {
+    background-color: #000000;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    @media screen and (max-width:768px) {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+
+    &__information {
+        padding-top: 45px;
+    }
+}
+
+.title {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+text-align: center;
+color: #FFFFFF;
+@media screen and (max-width:768px) {
+   font-size: 27px;
+}
+}
+
+.subtitle {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+color: #C0C0C0;
+margin-top: 15px;
+@media screen and (max-width:768px) {
+   font-size: 19px;
+}
+}
+
+.item {
+    height: 600px;
+    margin-bottom: 24px;
+    @media screen and (max-width:568px) {
+       height: 400px;
+     }
+
+    &__information {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 45px 30px 30px;
+        @media screen and (max-width:768px) {
+          padding: 0px 20px 20px 20px;
+         
+        }
+
+        h5 {
+            font-family: 'Poppins';
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #C0C0C0;
+            margin-top: 15px;
+           
+        }
+    }
+}
+
+.photo-one {
+    background: url('../img/works-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-two {
+    background: url('../img/works-02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-thre {
+    background: url('../img/works-03.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-four {
+    background: url('../img/works-04.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    width: 160px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 14px;
+    transition: 0.5s;
+     &:hover{
+    background-color: #989393;
+    transition: 0.5s;
+}
+&:hover p{
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+    p {
+        transition: 0.5s;
+        margin-top: 0;
+        margin-left: 6px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+       
+    }
+}
